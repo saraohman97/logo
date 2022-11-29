@@ -1,0 +1,151 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "SKINNY FIT HÖG MIDJA BYXOR",
+            "price": 449.95,
+            "category": "pants",
+            "image": "https://images.veromoda.com/10277048/4057468/003/veromoda-skinnyfithoegmidjabyxor-black.jpg?v=a80a5c40d9dfcd135b28c6cd96da0c0e&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10277048/4057468/004/veromoda-skinnyfithoegmidjabyxor-black.jpg?v=3830889255594e71884896f91adff918&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10277048/4057468/001/veromoda-skinnyfithoegmidjabyxor-black.png?v=20ac1f6aad6ab707d229a1fb834b4090&width=1024&quality=90"
+        },
+        {
+            "id": 2,
+            "title": "UTSVÄNGD PASSFORM HÖG MIDJA BYXOR",
+            "price": 349.95,
+            "category": "pants",
+            "image": "https://images.veromoda.com/10246696/3601321/003/veromoda-utsvaangdpassformhoegmidjabyxor-black.jpg?v=2519682784d6c379dc889b22e3ad9846&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10246696/3601321/004/veromoda-utsvaangdpassformhoegmidjabyxor-black.jpg?v=81a401a36b1532ca38dd64692bc65b60&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10246696/3601321/001/veromoda-utsvaangdpassformhoegmidjabyxor-black.jpg?v=012d0916b122cc4206a4df2d41d1d783&width=1024&quality=90" 
+        },
+        {
+            "id": 3,
+            "title": "NORMAL PASSFORM MEDELHÖG MIDJA UPPVIKTA FÅLLAR BYXOR",
+            "price": 299.95,
+            "category": "pants",
+            "image": "https://images.veromoda.com/10225280/3409889/003/veromoda-normalpassformmedelhoegmidjauppviktafaallarbyxor-grey.jpg?v=737b7f087ae826a48126a0dee3dbc27e&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10225280/3409889/004/veromoda-normalpassformmedelhoegmidjauppviktafaallarbyxor-grey.jpg?v=395317d12791ed9e8a9e133ad29f1489&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10225280/3409889/001/veromoda-normalpassformmedelhoegmidjauppviktafaallarbyxor-grey.png?v=93aaacdd765f3c62223359d7015b621c&width=1024&quality=90"
+        },
+        {
+            "id": 4,
+            "title": "LÖS PASSFORM BYXOR",
+            "price": 249.95,
+            "category": "pants",
+            "image": "https://images.veromoda.com/10247933/4070695/003/veromoda-loespassformbyxor-turquoise.jpg?v=2fb6494410efd1ada461cbc82f17071a&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10247933/4070695/004/veromoda-loespassformbyxor-turquoise.jpg?v=8934e0c305717e86caba206501207c0f&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10247933/4070695/001/veromoda-loespassformbyxor-turquoise.png?v=6922255f3c6719825072876a8739acbd&width=1024&quality=90" 
+        },
+
+        {
+            "id": 5,
+            "title": "NORMAL PASSFORM O-RINGNING KORT KLÄNNING",
+            "price": 399.95,
+            "category": "dresses",
+            "image": "https://images.veromoda.com/10280540/4105957/003/veromoda-normalpassformo-ringningkortklaanning-red.jpg?v=cd2c9784435e1486fcf60211ebb09c28&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10280540/4105957/004/veromoda-normalpassformo-ringningkortklaanning-red.jpg?v=4bb3075ba88c52f49508b463615ec48f&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10280540/4105957/001/veromoda-normalpassformo-ringningkortklaanning-red.jpg?v=de1dd7c18887a982207dd3b2a5888fa3&width=1024&quality=90"
+        },
+        {
+            "id": 6,
+            "title": "ÅTSITTANDE PASSFORM O-RINGNING RIBBMANSCHETTER NORMALA ÄRMAR LÅNG KLÄNNING",
+            "price": 449.95,
+            "category": "dresses",
+            "image": "https://images.veromoda.com/10271653/4041833/003/veromoda-aatsittandepassformo-ringningribbmanschetternormalaaarmarlaangklaanning-black.jpg?v=13a7f871f4cfbe2b2f597f4dca909feb&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10271653/4041833/004/veromoda-aatsittandepassformo-ringningribbmanschetternormalaaarmarlaangklaanning-black.jpg?v=37e50d45437a7ea39ad61b5caf01f8fc&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10271653/4041833/001/veromoda-aatsittandepassformo-ringningribbmanschetternormalaaarmarlaangklaanning-black.png?v=fcbf08266d1935045d2ff312a25809bd&width=1024&quality=90"
+        },
+        {
+            "id": 7,
+            "title": "AVSLAPPNAD V-RINGNING ELASTISKA MANSCHETTER BALLONGÄRMAR KORT KLÄNNING",
+            "price": 399.95,
+            "category": "dresses",
+            "image": "https://images.veromoda.com/10278655/4116578/003/veromoda-avslappnadv-ringningelastiskamanschetterballongaarmarkortklaanning-green.jpg?v=3e540d9b13204e09611ec8b5e59dfeab&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10278655/4116578/004/veromoda-avslappnadv-ringningelastiskamanschetterballongaarmarkortklaanning-green.jpg?v=17570e70e7089b9c772d2e090a50817b&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10278655/4116578/001/veromoda-avslappnadv-ringningelastiskamanschetterballongaarmarkortklaanning-green.png?v=37f79d0236320556806aafbb606208af&width=1024&quality=90"
+        },
+
+        {
+            "id": 8,
+            "title": "NORMAL PASSFORM SKJORTKRAGE MANSCHETTER MED KNAPPAR RYMLIGA ÄRMAR SKJORTA",
+            "price": 399.95,
+            "category": "shirts",
+            "image": "https://images.veromoda.com/10278950/4083513/003/veromoda-normalpassformskjortkragemanschettermedknapparrymligaaarmarskjorta-grey.jpg?v=1976b0da5cd4919df0f2080dd79e6da0&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10278950/4083513/004/veromoda-normalpassformskjortkragemanschettermedknapparrymligaaarmarskjorta-grey.jpg?v=43aa9acb9b19b299b6196acec79582d6&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10278950/4083513/001/veromoda-normalpassformskjortkragemanschettermedknapparrymligaaarmarskjorta-grey.jpg?v=a00cb188ba0426f94e236527b80daa76&width=1024&quality=90"
+        },
+        {
+            "id": 9,
+            "title": "LÖS PASSFORM SKJORTKRAGE SMOCKMANSCHETTER NORMALA ÄRMAR SKJORTA",
+            "price": 449.95,
+            "category": "shirts",
+            "image": "https://images.veromoda.com/10289166/4288086/003/veromoda-loespassformskjortkragesmockmanschetternormalaaarmarskjorta-white.jpg?v=18b5d10ef09ce6e34808fc7556df6e82&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10289166/4288086/004/veromoda-loespassformskjortkragesmockmanschetternormalaaarmarskjorta-white.jpg?v=8aced04b19f3b9c3ce151a197e0b8b5f&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10289166/4288086/001/veromoda-loespassformskjortkragesmockmanschetternormalaaarmarskjorta-white.png?v=b933c3bde2e1e61e3ee8ccb8c513a139&width=1024&quality=90"
+        },
+        {
+            "id": 10,
+            "title": "NORMAL PASSFORM SKJORTKRAGE ÄRMAR MED UPPVIK SKJORTA",
+            "price": 299.95,
+            "category": "shirts",
+            "image": "https://images.veromoda.com/10275283/4038876/003/veromoda-normalpassformskjortkrageaarmarmeduppvikskjorta-white.jpg?v=e4a15534a478279e5d2636646504f8cd&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10275283/4038876/004/veromoda-normalpassformskjortkrageaarmarmeduppvikskjorta-white.jpg?v=6c6ae23f4fb3e54a0668b071efdae0e5&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10275283/4038876/001/veromoda-normalpassformskjortkrageaarmarmeduppvikskjorta-white.png?v=335f5ae2ee1c3dec394f10b3be3388d2&width=1024&quality=90"
+        },
+
+        {
+            "id": 11,
+            "title": "VÄNDBAR ROCK",
+            "price": 599.95,
+            "category": "jackets",
+            "image": "https://images.veromoda.com/10248226/3691880/003/veromoda-vaandbarrock-black.jpg?v=c9003bd44b87f5eb82880fb649297db8&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10248226/3691880/004/veromoda-vaandbarrock-black.jpg?v=1c3f9e26ecce6a5b5ac25a3868b6c748&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10248226/3691880/001/veromoda-vaandbarrock-black.jpg?v=928cfcfcf6eced2cffc3d4dffbab6d7a&width=1024&quality=90"
+        },
+        {
+            "id": 12,
+            "title": "HUVA NORMALA ÄRMAR JACKA",
+            "price": 1299.95,
+            "category": "jackets",
+            "image": "https://images.veromoda.com/10230839/3438813/003/veromoda-huvanormalaaarmarjacka-black.jpg?v=153f445ae14844aef837f1126a72f7a3&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10230839/3438813/004/veromoda-huvanormalaaarmarjacka-black.jpg?v=b0906f9fb86a601cff28bb1b7fea78c7&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10230839/3438813/001/veromoda-huvanormalaaarmarjacka-black.jpg?v=8729a8ff91730524568159b67953bb9c&width=1024&quality=90"
+        },
+        {
+            "id": 13,
+            "title": "HUVA JACKA",
+            "price": 549.95,
+            "category": "jackets",
+            "image": "https://images.veromoda.com/10267103/4011666/003/veromoda-huvajacka-grey.jpg?v=910ddc2310321c92dc265b3f27faeb81&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10267103/4011666/004/veromoda-huvajacka-grey.jpg?v=5e64be412756cb651f5323b74a7a8c86&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10267103/4011666/001/veromoda-huvajacka-grey.png?v=c628f5e7f11cc309187922410ee52a5c&width=1024&quality=90"
+        },
+        {
+            "id": 14,
+            "title": "VÄNDBAR NORMALA ÄRMAR ROCK",
+            "price": 799.95,
+            "category": "jackets",
+            "image": "https://images.veromoda.com/10267495/3911584/003/veromoda-vaandbarnormalaaarmarrock-brown.jpg?v=2ad4291ef1ca1c3c9778b253fb3b042f&width=1024&quality=90",
+            "image-back": "https://images.veromoda.com/10267495/3911584/004/veromoda-vaandbarnormalaaarmarrock-brown.jpg?v=0d60452b64fc19e73240883570c3e076&width=1024&quality=90",
+            "image-plain": "https://images.veromoda.com/10267495/3911584/001/veromoda-vaandbarnormalaaarmarrock-brown.jpg?v=42953523c303765838f201f6a590df19&width=1024&quality=90"
+        },
+        {
+            "id": 15,
+            "title": "HALSDUK",
+            "price": 229.95,
+            "category": "accessories",
+            "image": "https://images.veromoda.com/10249564/3701918/003/veromoda-halsduk-black.jpg?v=d5194aceb47c01367fa6af36aa50da24&width=1024&quality=90",
+            "image-back": "",
+            "image-plain": "https://images.veromoda.com/10249564/3701918/001/veromoda-halsduk-black.jpg?v=537b34869ad9bde0fb4a9582eec09885&width=1024&quality=90"
+        },
+        {
+            "id": 16,
+            "title": "KEDJEREM VÄSKA",
+            "price": 349.95,
+            "category": "accessories",
+            "image": "https://images.veromoda.com/10280862/4110222/003/veromoda-kedjeremvaaska-black.jpg?v=8b1669319943fe987d5fc0ac9bd17203&width=1024&quality=90",
+            "image-back": "",
+            "image-plain": "https://images.veromoda.com/10280862/4110222/001/veromoda-kedjeremvaaska-black.jpg?v=2159e9e2a87cf2a4db1e93f338b5201a&width=1024&quality=90"
+        }
+    ]
+}
