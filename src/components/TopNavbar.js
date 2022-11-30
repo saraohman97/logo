@@ -6,9 +6,9 @@ const TopNavbar = () => {
         <small>Open: 9-15</small>
         <small>Check out our latest SALE</small>
         <small className='social-icons'>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-square-facebook"></i>
+            <i className="fa-brands fa-linkedin"></i>
         </small>
     </div>
   )
