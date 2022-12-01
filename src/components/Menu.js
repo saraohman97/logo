@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Menu = () => {
   return (
     <div className='dropmenu'>
-      {/* <ul className="dropmenu-links"> */}
+      <ul className="dropmenu-wrapper">
         <h3>Categories</h3>
         <li><Link to='/products'>Dresses</Link></li>
         <li><Link to='/products'>Pants</Link></li>
@@ -22,7 +22,7 @@ const Menu = () => {
         <li><Link to='/products'>Cosy autumn</Link></li>
         <li><Link to='/products'>Datenight</Link></li>
         <li><Link to='/products'>Holiday</Link></li>
-      {/* </ul> */}
+      </ul>
     </div>
   )
 }

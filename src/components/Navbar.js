@@ -12,7 +12,7 @@ const Navbar = () => {
     ? setShowMenu(false)
     : setShowMenu(true) 
   }
-
+ 
   return (
     <>
     <div className='navbar'>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <p>Woman / Man</p>
 
         <div className="nav-links">
-          <NavLink to='/products' onClick={toggleMenu} className='nav-link'>Categories</NavLink>
+          <NavLink to='/products' onMouseEnter={toggleMenu} className='nav-link'>Categories</NavLink>
           {showMenu && <Menu />}
           <NavLink to='/products' className='nav-link'>Jewelry</NavLink>
           <NavLink to='/products' className='nav-link'>Sale</NavLink>
