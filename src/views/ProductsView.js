@@ -1,9 +1,23 @@
-import React from 'react'
+import { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { getProducts } from '../store/products/productsAction'
 import Item from '../components/Item'
 
 const ProductsView = () => {
+
+    const dispatch = useDispatch()
+    const { loading, error, data: products } = useSelector(state => state.productsReducer)
+
+    useEffect(() => {
+        dispatch(getProducts())
+    }, [dispatch])
+
   return (
+    <>
+    {loading && <p>Loading...</p>}
+    {error && <p>{error}</p>}
+
     <div className='products-view'>
         <div className="container">
             {/* ---------SIDEBAR------- */}
@@ -29,6 +43,10 @@ const ProductsView = () => {
 
             {/* ---------CONTENT------- */}
             <div className="content">
+                <div className="products-view-showcase">
+                    <h3>Paint with all the colors of the wind</h3>
+                </div>
+
                 <div className="header">
                     <button className='btn-filter'>Size <i className="fa-solid fa-chevron-down brown"></i></button>
                     <button className='btn-filter'>Size <i className="fa-solid fa-chevron-down brown"></i></button>
@@ -38,24 +56,15 @@ const ProductsView = () => {
                 </div>
 
                 <div className="products">
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
+                    {products.map(product => (
+                        <Item key={product.id} product={product} />
+                    ))}
                 </div>
             </div>
 
         </div>
     </div>
+    </>
   )
 }
 

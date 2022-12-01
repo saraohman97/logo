@@ -1,12 +1,11 @@
 import React from 'react'
-import test from '../imgs/test.jpg'
 
-const Item = () => {
+const Item = ({ product }) => {
   return (
     <div className='item'>
-        <img src={test} alt="" />
-        <p>SKINNY FIT HÖG MIDJA BYXOR</p>
-        <p className='brown'>449.95 KR</p>
+        <img src={product.image} alt="" />
+        <p>{product.title}</p>
+        <p className='brown'>{product.price} KR</p>
     </div>
   )
 }
