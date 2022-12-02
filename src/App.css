@@ -313,3 +313,46 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
+
+/* ---------------DETAILS VIEW------------------ */
+.details-view {
+    width: 95%;
+    margin: 5% auto;
+    font-weight: 200;
+}
+.details-view img {
+    width: 40%;
+}
+
+.details-view .product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.details-view .product .right {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.details-view .product .right .buttons {
+    display: flex;
+    gap: 2rem;
+}
+.details-view .product .right .cart {
+    width: auto;
+    height: 2rem;
+}
+
+.details-view .product .right h2 {
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.details-view .fa-heart {
+    font-size: xx-large;
+}

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './views/Home'
 import Footer from './components/Footer';
 import ProductsView from './views/ProductsView';
+import DetailsView from './views/DetailsView';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={ <Home /> } />
         <Route path='/products' element={ <ProductsView /> } />
+        <Route path='/products/:id' element={ <DetailsView /> } />
       </Routes>
 
       <Footer />
