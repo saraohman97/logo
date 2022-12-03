@@ -2,23 +2,31 @@ import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import cart from '../imgs/cart.png'
 import Menu from './Menu'
+import Cart from '../components/Cart'
 
 const Navbar = () => {
 
   const [showMenu, setShowMenu] = useState(false)
+  const [showCart, setShowCart] = useState(false)
 
   const toggleMenu = () => {
     showMenu
     ? setShowMenu(false)
     : setShowMenu(true) 
   }
+
+  const toggleCart = () => {
+    showCart
+    ? setShowCart(false)
+    : setShowCart(true) 
+  }
  
   return (
     <>
     <div className='navbar'>
-      <Link to='/'><h1>LOGO</h1></Link>
+      <h1><Link to='/'>LOGO</Link></h1>
       <div className="menu">
-        <p>Woman / Man</p>
+        <p className='width'>Woman / Man</p>
 
         <div className="nav-links">
           <NavLink to='/products' onMouseEnter={toggleMenu} className='nav-link'>Categories</NavLink>
@@ -30,9 +38,11 @@ const Navbar = () => {
 
         <div className="icons">
           <p>Cart - $ 0</p>
-          <img src={cart} alt="" className='cart' />
+          <div onClick={toggleCart}><img src={cart} alt="" className='cart' /></div>
+          {showCart && <Cart toggleCart={toggleCart} />}
           <i className="fa-solid fa-heart"></i>
         </div>
+        
       </div>
     </div>
 

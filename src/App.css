@@ -51,6 +51,9 @@ a {
     font-size: 1em;
     font-weight: 200;
 }
+.navbar .width {
+    width: 10rem;
+}
 .navbar h1 {
     font-weight: 400;
     font-size: 3em;
@@ -69,7 +72,7 @@ a {
 
     /* position: absolute;
 	left: 50%;
-	transform: translate(-50%); */
+	transform: translate(-50%); <<<<<-------Its from centering.It clashed.*/
 }
 
 .navbar .icons {
@@ -77,7 +80,7 @@ a {
     align-items: center;
     gap: 2rem;
 }
-.cart {
+.navbar .cart {
     height: 20px;
 }
 .navbar .icons .fa-heart {
@@ -130,8 +133,113 @@ a {
     font-weight: 600;
     
 }
+ 
 
 
+/* -----------------CART-------------------- */
+.cart-bg {
+    position: absolute;
+    z-index: 10;
+    top: 177px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.293);
+}
+.cart-view {
+    background-color: white;
+    width: 70vh;
+    height: 75vh;
+
+    position: absolute;
+    right: 0;
+    top: 1px;
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.cart-view h3 {
+    font-weight: 200;
+}
+.cart-view .top h3 {
+    text-decoration: underline;
+}
+
+.cart-view .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-x {
+    background-color: transparent;
+    border: none;
+    font-size: large;
+}
+
+.cart-view .cart-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    overflow-y: scroll;
+}
+.cart-item {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    text-align: start;
+    gap: .5rem;
+}
+.cart-view img {
+    width: 30%;
+}
+.cart-view .cart-item .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-view .cart-item .add {
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+}
+.btn-add {
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-red {
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    color: red;
+}
+.border {
+    border-block: 1px solid black;
+    padding: 1px 10px 0px 10px;
+    font-size: small;
+    font-weight: 400;
+}
+
+.cart-view .bottom {
+    border-top: 1px solid gray;
+    padding-block: .5rem;
+    z-index: 11;
+    background-color: white;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+}
+.btn-finish {
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    background-color: white;
+}
 
 
 
@@ -215,7 +323,6 @@ a {
     font-size: 40px;
 
     transform: rotate(-90deg);
-    /* line-height: 50px; */
     line-height: 40px;
 }
 .product-wrapper-2 {
@@ -286,7 +393,7 @@ a {
 .btn-filter {
     border: 1px solid black;
     min-width: 5rem;
-    padding: .4rem .8rem;
+    padding: .5rem .8rem;
     background-color: white;
     display: flex;
     align-items: center;
